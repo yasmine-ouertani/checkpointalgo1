@@ -1,0 +1,37 @@
+
+ALGORITHM SENTENCE
+VAR
+nb_char:INTEGER:=0
+nb_char:INTEGER:=0
+nb_char:INTEGER:=0
+c:CHAR
+  
+
+
+
+
+
+BEGIN
+   while (<>".")
+   read(c)
+   nb_char:=nb_char+1
+   if(c="") then
+   nb_words:=nb_words+1
+   end_if
+   if(c="a" or c="e"or c="i"or c="y"or c="u")
+   then
+   nb_vow:=nb_vow+1
+   end_if
+   end_while
+   write(nb_char+1)
+   write(nb_vow)
+   write(nb_words+1)
+   END.
+
+
+
+
+
+
+
+END
